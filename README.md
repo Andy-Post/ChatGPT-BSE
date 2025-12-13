@@ -1,4 +1,4 @@
-# ChatGPT Business Export Tool
+# ChatGPT Plus/Business Export Tool
 
 Python-Script zum automatisierten Export von ChatGPT Business Account Conversations mit Unterstützung für Projekte, Metadaten, automatischer Keyword-Extraktion und flexibler Filterung.
 
