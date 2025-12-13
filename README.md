@@ -22,8 +22,8 @@ Python-Script zum automatisierten Export von ChatGPT Business Account Conversati
 
 1. Repository klonen:
 ```bash
-git clone https://github.com/DEIN-USERNAME/chatgpt-business-export.git
-cd chatgpt-business-export
+git clone https://github.com/Andy-Post/ChatGPT-BSE.git
+cd ChatGPT-BSE
 ```
 
 2. Dependencies installieren:
@@ -109,7 +109,7 @@ Jeder Chat erhält eine JSON-Metadatendatei:
 
 ### Chrome-Profil
 ```python
-USER_DATA_DIR = r"C:\Users\post\AppData\Local\Google\Chrome\User Data\Profile 1"
+USER_DATA_DIR = r"C:\Users\DEIN-USERNAME\AppData\Local\Google\Chrome\User Data\Profile 1"
 ```
 
 ### Backup-Orte (optional)
