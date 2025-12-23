@@ -57,34 +57,34 @@ Falls du ein anderes Chrome-Profil verwenden möchtest, öffne `export_enhanced_
 
 ### Basis-Export (nur Chats außerhalb von Projekten)
 ```bash
-python export_enhanced_v2.py
+python export_enhanced.py
 ```
 
 ### Export aus einem spezifischen Projekt
 ```bash
-python export_enhanced_v2.py --project "Projektname"
+python export_enhanced.py --project "Projektname"
 ```
 
 ### Export aller Chats (inkl. Projekte)
 ```bash
-python export_enhanced_v2.py --all
+python export_enhanced.py --all
 ```
 
 ### Export mit Keyword-Filter (nur Chats die Keywords enthalten)
 ```bash
-python export_enhanced_v2.py --all --filter-keywords "MCP" "Bitwig"
+python export_enhanced.py --all --filter-keywords "MCP" "Bitwig"
 # Exportiert NUR Chats die "MCP" ODER "Bitwig" enthalten
 ```
 
 ### Mit manueller Keyword-Suche (für Tagging/Screenshots)
 ```bash
-python export_enhanced_v2.py --all --keywords "NRW" "Bad Sassendorf"
+python export_enhanced.py --all --keywords "NRW" "Bad Sassendorf"
 # Exportiert ALLE Chats, taggt die mit Keywords, macht Screenshots
 ```
 
 ### Kombiniert: Filter + Tagging
 ```bash
-python export_enhanced_v2.py --all --filter-keywords "MCP" --keywords "OSC" "Bitwig"
+python export_enhanced.py --all --filter-keywords "MCP" --keywords "OSC" "Bitwig"
 # Exportiert nur Chats mit "MCP", taggt diese zusätzlich mit "OSC"/"Bitwig"
 ```
 
